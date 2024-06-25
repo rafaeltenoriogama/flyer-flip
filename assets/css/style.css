@@ -60,6 +60,20 @@ body {
   background-color: #237549;
 }
 
+@media (max-width:600px) {
+  .carousel {
+    height: 60vh;
+  }
+
+  .carousel_slide {
+    height: 60vh;
+  }
+
+  .carousel_snapper img {
+    object-fit: contain;
+  }
+}
+
 .carousel__snapper img {
   object-fit: cover;
   width: 100%;
