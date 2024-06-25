@@ -75,7 +75,7 @@ body {
 }
 
 .carousel__snapper img {
-  object-fit: contain;
+  object-fit: fill;
   width: 100%;
   height: 100%;
 }
