@@ -148,7 +148,7 @@ li {
 }
 
 .carousel__slide:nth-child(even) {
-  background-color: #99f;
+  background-color: #126A38;
 }
 
 .carousel__slide:before {
