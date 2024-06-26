@@ -62,11 +62,11 @@ body {
 
 @media (max-width:600px) {
   .carousel {
-    height: auto;
+    height: 100%;
   }
 
   .carousel_slide {
-    height: auto;
+    height: 100%;
   }
 
   .carousel_snapper img {
