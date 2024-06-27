@@ -1,2 +1,9 @@
-# flyer-flip
-A flyer with 5 or less pages which have a css book flip animation to show up the information.
+# Flyer with flip animation
+
+A carousel of images with buttons of back and forward to navigate, also, navigate buttons.
+
+![Cover image](./assets/imgs/readme.png)
+
+## Stacks
+
+HTML and CSS only.
