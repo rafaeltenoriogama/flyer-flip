@@ -266,3 +266,21 @@ li {
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
+
+#gif-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Certifique-se de que o GIF fique acima do carrossel */
+}
+
+#gif-container img {
+  height: 280px;
+  width: 254px;
+
+}
+
+#hand-gif {
+  display: none;
+}
