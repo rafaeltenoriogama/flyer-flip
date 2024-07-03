@@ -76,8 +76,8 @@
           <img src="./assets/imgs/20.png" alt="Slide 9">
           <a href="#carousel__slide8" class="carousel__prev">Go to previous slide</a>
           <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-          adicionar url https://wa.me/5511976162587
           <a href="https://wa.me/5511976162587" target="_blank">Link para WhatsApp</a>
+          <!-- O numero de cima é o do RH -->
         </div>
       </li>
 
@@ -118,27 +118,27 @@
       <img src="./assets/imgs/hand-scrolling.gif" alt="Hand GIF" id="hand-gif">
     </div>
   </section>
-<script>
-  function toggleGif() {
-    const gif = document.getElementById('hand-gif');
-    if (gif.style.display === 'none') {
-      gif.style.display = 'block';
-      setTimeout(() => {
+  <script>
+    function toggleGif() {
+      const gif = document.getElementById('hand-gif');
+      if (gif.style.display === 'none') {
+        gif.style.display = 'block';
+        setTimeout(() => {
+          gif.style.display = 'none';
+        }, 5000); // O GIF vai desaparecer após 5 segundos
+      } else {
         gif.style.display = 'none';
-      }, 5000); // O GIF vai desaparecer após 5 segundos
-    } else {
-      gif.style.display = 'none';
+      }
     }
-  }
 
-  document.addEventListener('DOMContentLoaded', (event) => {
-    toggleGif(); // Mostrar GIF quando a página carregar
+    document.addEventListener('DOMContentLoaded', (event) => {
+      toggleGif(); // Mostrar GIF quando a página carregar
 
-    setInterval(() => {
-      toggleGif();
-    }, 5000); // Mostrar o GIF a cada 15 segundos 15000
-  });
-</script>
+      setInterval(() => {
+        toggleGif();
+      }, 15000); // Mostrar o GIF a cada 15 segundos 15000
+    });
+  </script>
 </body>
 
 </html>
