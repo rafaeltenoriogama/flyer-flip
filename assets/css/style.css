@@ -117,9 +117,10 @@ li {
   padding-top: 75%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
-  /*
-   *
-   * -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+  /* Abaixo retirei os efeitos de sombra */
+    /*
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); 
    */
@@ -170,16 +171,19 @@ li {
   scroll-snap-align: center;
 }
 
+
+/* Abaixo retirei as animações dos slides mudarem sozinhos. */
 @media (hover: hover) {
   .carousel__snapper {
-    animation-name: tonext, snap;
+    /* animation-name: tonext, snap;
     animation-timing-function: ease;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    */
   }
 
   .carousel__slide:last-child .carousel__snapper {
-    animation-name: tostart, snap;
+    /* animation-name: tostart, snap; */
   }
 }
 
@@ -221,7 +225,8 @@ li {
 
 .carousel::before,
 .carousel::after,
-.carousel__prev,
+/* Abaixo retire os botões de navegação de ir e voltar acima da imagem */
+/* .carousel__prev,
 .carousel__next {
   position: absolute;
   top: 0;
@@ -233,7 +238,7 @@ li {
   font-size: 0;
   outline: 0;
 }
-
+*/
 .carousel::before,
 .carousel__prev {
   left: -1rem;
