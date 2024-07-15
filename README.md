@@ -1,11 +1,12 @@
 # Índices Ambiental Transportes Urbanos
-This project presents various environmental indices for urban transportation. The indices are displayed in a "column" style, similar to Instagram, allowing employees to scroll through the images vertically. Each image is placed within a container that provides spacing and shadow effects to enhance visibility and aesthetics.
+This project presents various environmental indices for urban transportation. 
+The indices are displayed in a "column" style, similar to Instagram, allowing employees to scroll through the images vertically. Each image is placed within a container that provides spacing and shadow effects to enhance visibility and aesthetics.
 
+![image](./assets/imgs/readme.png)
 
 ## Live Demo
 
-The project is online and can be accessed through the following link: [Índices Ambiental Transportes Urbanos](https://flyer-flip.vercel.app/). Visit this link to see how the project looks and functions.
-
+The project is online and can be accessed through [this link over here](https://flyer-flip.vercel.app/). Visit this link to see how the project looks and functions.
 
 ## Project Structure
 The project is structured as follows:
