@@ -3,143 +3,43 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link href="./assets/css/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Teste</title>
 </head>
 
 <body>
-  <!--  <h1>Flyer Ambiental Transportees Urbanos S/A</h1>
-
-<p>Segue abaixo informações sobre nossos indices:</p> -->
-
-  <section class="carousel" aria-label="Gallery">
-    <ol class="carousel__viewport">
-      <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/12.png" alt="Slide 1" class="imagens">
-          <a href="#carousel__slide9" class="carousel__prev">Go to last slide</a>
-          <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/13.png" alt="Slide 2">
-          <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/14.png" alt="Slide 3">
-          <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/15.png" alt="Slide 4">
-          <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide5" class="carousel__next">Go to first slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide5" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/16.png" alt="Slide 5">
-          <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide6" class="carousel__next">Go to first slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide6" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/17.png" alt="Slide 6">
-          <a href="#carousel__slide5" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide7" class="carousel__next">Go to first slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide7" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/18.png" alt="Slide 7">
-          <a href="#carousel__slide6" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide8" class="carousel__next">Go to first slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide8" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <img src="./assets/imgs/19.png" alt="Slide 8">
-          <a href="#carousel__slide7" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide9" class="carousel__next">Go to first slide</a>
-        </div>
-      </li>
-      <li id="carousel__slide9" tabindex="0" class="carousel__slide">
-        <div class="carousel__snapper">
-          <a href="https://wa.me/5511976162587" target="_blank">
-            <img src="./assets/imgs/20.png" alt="Slide 9">
-          </a>
-          <!-- adicionar url https://wa.me/5511976162587 -->
-          <a href="#carousel__slide8" class="carousel__prev">Go to previous slide</a>
-          <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
-        </div>
-      </li>
-
-
-    </ol>
-    <aside class="carousel__navigation">
-      <ol class="carousel__navigation-list">
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide6" class="carousel__navigation-button">Go to slide 6</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide7" class="carousel__navigation-button">Go to slide 7</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide8" class="carousel__navigation-button">Go to slide 8</a>
-        </li>
-        <li class="carousel__navigation-item">
-          <a href="#carousel__slide9" class="carousel__navigation-button">Go to slide 9</a>
-        </li>
-      </ol>
-    </aside>
-    <div id="gif-container">
-      <img src="./assets/imgs/hand-scrolling.gif" alt="Hand GIF" id="hand-gif">
+  <div class="container-main">
+    <div class="container-images">
+      <img src="./assets/imgs/12.png" alt="index-img" class="images">
     </div>
-  </section>
-  <script>
-    function toggleGif() {
-      const gif = document.getElementById('hand-gif');
-      if (gif.style.display === 'none') {
-        gif.style.display = 'block';
-        setTimeout(() => {
-          gif.style.display = 'none';
-        }, 4000); // O GIF vai desaparecer após 5 segundos
-      } else {
-        gif.style.display = 'none';
-      }
-    }
+    <div class="container-images">
+      <img src="./assets/imgs/13.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <img src="./assets/imgs/14.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <img src="./assets/imgs/15.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <img src="./assets/imgs/16.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <img src="./assets/imgs/17.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <img src="./assets/imgs/18.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <img src="./assets/imgs/19.png" alt="index-img" class="images">
+    </div>
+    <div class="container-images">
+      <a href="https://wa.me/5511976162587" target="_blank">
+        <img src="./assets/imgs/20.png" alt="index-img" class="images">
+    </div>
+  </div>
 
-    document.addEventListener('DOMContentLoaded', (event) => {
-      toggleGif(); // Mostrar GIF quando a página carregar
-
-      setInterval(() => {
-        toggleGif();
-      }, 15000); // Mostrar o GIF a cada 15 segundos 15000
-    });
-  </script>
 </body>
 
 </html>
