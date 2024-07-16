@@ -38,6 +38,6 @@ Open ``index.html`` in your browser to view the webpage.
 
 ### Project Features
 
-``Scrolling Column Layout``: Images are displayed in a vertical column layout similar to Instagram.
-``Image Containers:`` Each image is enclosed in a container with spacing and shadow effects.
-``Responsive Design:`` The design is responsive and adapts to different screen sizes.
+- ``Scrolling Column Layout``: Images are displayed in a vertical column layout similar to Instagram.
+- ``Image Containers:`` Each image is enclosed in a container with spacing and shadow effects.
+- ``Responsive Design:`` The design is responsive and adapts to different screen sizes.
